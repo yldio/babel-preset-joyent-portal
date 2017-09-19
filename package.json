@@ -1,20 +1,20 @@
 {
   "name": "babel-preset-joyent-portal",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "license": "MPL-2.0",
-  "repository": "github:yldio/joyent-portal",
+  "repository": "github:yldio/babel-preset-joyent-portal",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
-    "test": "echo 0",
-    "test-ci": "echo 0",
-    "prepublish": "echo 0"
+    "fmt": "prettier --write --single-quote *.js"
   },
   "dependencies": {
     "babel-preset-react-app": "^3.0.2"
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-joyent-portal": "3.0.0"
+    "babel-preset-minify": "^0.2.0",
+    "eslint": "^4.7.1",
+    "eslint-config-joyent-portal": "3.0.0",
+    "prettier": "^1.7.0"
   }
 }
