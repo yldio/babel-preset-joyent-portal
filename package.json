@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-joyent-portal",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "license": "MPL-2.0",
   "repository": "github:yldio/babel-preset-joyent-portal",
   "main": "index.js",
@@ -9,6 +9,7 @@
     "fmt": "prettier --write --single-quote *.js"
   },
   "dependencies": {
+    "babel-plugin-lodash": "^3.2.11",
     "babel-preset-minify": "^0.2.0",
     "babel-preset-react-app": "^3.0.3"
   },
