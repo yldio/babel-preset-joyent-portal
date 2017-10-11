@@ -5,7 +5,7 @@
   "repository": "github:yldio/babel-preset-joyent-portal",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --fix",
+    "test": "eslint . --fix",
     "fmt": "prettier --write --single-quote *.js"
   },
   "dependencies": {
