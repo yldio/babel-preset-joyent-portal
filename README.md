@@ -1,10 +1,9 @@
 # babel-preset-joyent-portal
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/yldio/babel-preset-joyent-portal.svg)](https://greenkeeper.io/)
-
 [![npm](https://img.shields.io/npm/v/babel-preset-joyent-portal.svg?style=flat-square)](https://www.npmjs.com/package/babel-preset-joyent-portal)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg?style=flat-square)](https://opensource.org/licenses/MPL-2.0)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![Greenkeeper badge](https://img.shields.io/badge/greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/)
 
 [![David](https://img.shields.io/david/yldio/babel-preset-joyent-portal.svg?style=flat-square)](https://david-dm.org/yldio/babel-preset-joyent-portal)
 [![David](https://img.shields.io/david/dev/yldio/babel-preset-joyent-portal.svg?style=flat-square)](https://david-dm.org/yldio/babel-preset-joyent-portal?type=dev)
