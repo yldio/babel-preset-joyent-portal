@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-joyent-portal",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "license": "MPL-2.0",
   "repository": "github:yldio/babel-preset-joyent-portal",
   "main": "index.js",
