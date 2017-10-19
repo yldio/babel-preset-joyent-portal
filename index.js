@@ -1,5 +1,8 @@
 module.exports = (ctx, opts) => ({
-  plugins: [require('babel-plugin-lodash'), require('styled-components')],
+  plugins: [
+    require('babel-plugin-lodash'),
+    require('babel-plugin-styled-components')
+  ],
   presets: [require('babel-preset-react-app')],
   env: {
     production: {
