@@ -7,6 +7,7 @@ module.exports = (ctx, opts) => {
   const _cra = Object.assign({}, cra);
 
   if (
+    NODE_ENV !== 'test' &&
     Array.isArray(_cra.presets[0]) &&
     _cra.presets[0][0].match(/babel-preset-env\/lib\/index\.js$/)
   ) {
