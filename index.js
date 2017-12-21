@@ -1,7 +1,6 @@
 const cra = require('babel-preset-react-app');
 
-const { UMD, NODE_ENV } = process.env;
-const isProduction = (NODE_ENV || '').toLowerCase() === 'production';
+const { UMD } = process.env;
 
 module.exports = (ctx, opts) => {
   const _cra = Object.assign({}, cra);
@@ -18,7 +17,6 @@ module.exports = (ctx, opts) => {
   }
 
   return Object.assign({}, _cra, {
-    presets: isProduction ? _cra.presets.concat(['minify']) : _cra.presets,
     plugins: _cra.plugins.concat([
       require('babel-plugin-lodash'),
       require('babel-plugin-styled-components').default
