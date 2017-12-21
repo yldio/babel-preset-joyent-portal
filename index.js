@@ -1,6 +1,6 @@
 const cra = require('babel-preset-react-app');
 
-const { UMD } = process.env;
+const { UMD, NODE_ENV } = process.env;
 
 module.exports = (ctx, opts) => {
   const _cra = Object.assign({}, cra);
