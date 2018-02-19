@@ -26,7 +26,10 @@ yarn add --dev babel-preset-joyent-portal
 
 ```json
 {
-  "presets": "joyent-portal"
+  "presets": [["joyent-portal", {
+    "aliases": false,
+    "autoAliases": false
+  }]]
 }
 ```
 
