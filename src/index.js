@@ -38,14 +38,13 @@ module.exports = (ctx, opts = {}) => {
       const dirAliases = autoAliases
         ? fs
             .readdirSync(ROOT)
-            .map(name => path.join(ROOT, name))
-            .filter(fullpath => fs.statSync(fullpath).isDirectory())
+            .filter(name => fs.statSync(path.join(ROOT, name)).isDirectory())
             .reduce(
-              (aliases, fullpath) =>
+              (aliases, name) =>
                 Object.assign(aliases, {
-                  [`@${path.basename(fullpath)}`]: fullpath
+                  [`@${name}`]: `./src/${name}`
                 }),
-              { '@root': ROOT }
+              { '@root': './src' }
             )
         : {};
 

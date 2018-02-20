@@ -5,7 +5,9 @@ const findBabelConfig = require('find-babel-config');
 const glob = require('glob');
 const pkgUp = require('pkg-up');
 
-const defaultResolvePath = require('babel-plugin-module-resolver/lib/resolvePath');
+const {
+  default: defaultResolvePath
+} = require('babel-plugin-module-resolver/lib/resolvePath');
 
 const defaultExtensions = ['.js', '.jsx', '.es', '.es6', '.mjs'];
 

@@ -1,7 +1,6 @@
 const path = require('path');
 
 const { warn } = require('babel-plugin-module-resolver/lib/log');
-const mapToRelative = require('babel-plugin-module-resolver/lib/mapToRelative');
 const normalizeOptions = require('./normalize-alias-opts');
 
 const {
@@ -11,6 +10,10 @@ const {
   toLocalPath,
   toPosixPath
 } = require('babel-plugin-module-resolver/lib/utils');
+
+const {
+  default: mapToRelative
+} = require('babel-plugin-module-resolver/lib/mapToRelative');
 
 function getRelativePath(sourcePath, currentFile, absFileInRoot, opts) {
   const realSourceFileExtension = path.extname(absFileInRoot);
