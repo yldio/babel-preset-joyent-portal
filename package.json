@@ -13,7 +13,7 @@
     "babel-plugin-lodash": "^3.3.2",
     "babel-plugin-module-resolver": "^3.1.0",
     "babel-plugin-styled-components": "^1.5.0",
-    "babel-preset-react-app": "^3.1.1",
+    "babel-preset-react-app": "^5.0.3",
     "find-babel-config": "^1.1.0",
     "glob": "^7.1.2",
     "pkg-up": "^2.0.0"
